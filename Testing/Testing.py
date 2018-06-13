@@ -11,6 +11,7 @@ class Jakestest:
     async def Jake1(self, ctx):
         """This is Jakes way of slowly learning kek"""
         await self.bot.say("Jab you suck dick")
+    @commands.command(pass_context=True)
     async def Jake2(self, ctx):
         """This is Jakes way of slowly learning kek"""
         await self.bot.say("this is all it is")
