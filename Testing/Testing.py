@@ -1,8 +1,8 @@
 from discord.ext import commands
 
 
-class Jakes-Test:
-    """leavin you in the dust!"""
+class Jakestest:
+    """Dis mine!"""
 
     def __init__(self, bot):
         self.bot = bot
@@ -16,4 +16,4 @@ class Jakes-Test:
         await self.bot.say("this is all it is")
 
 def setup(bot):
-    bot.add_cog(Jakes-Test(bot))
+    bot.add_cog(Jakestest(bot))
