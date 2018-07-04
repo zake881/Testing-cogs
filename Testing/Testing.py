@@ -18,7 +18,7 @@ class Jakestest:
         
     @commands.command()
     async def ping(ctx):
-    return await ctx.send('Pong! {0}'.format(round(bot.latency, 1))
+        return await ctx.send('Pong! {0}'.format(round(bot.latency, 1))
 
 def setup(bot):
     bot.add_cog(Jakestest(bot))
