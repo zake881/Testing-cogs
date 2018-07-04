@@ -16,11 +16,10 @@ class Jakestest:
         """This is Jakes way of slowly learning kek"""
         await self.bot.say("this is all it is")
         
-    @commands.command(pass_context=True)
+    @command.command(pass_context=True)
     async def ping(ctx):
-        now = datetime.datetime.utcnow()
-        delta = now-ctx.message.timestamp
-        await client.say('{}ms'.format(delta(microseconds=1)))
-
+        embed = discord.Embed(title="Pong! :ping_pong:")
+        await bot.say(embed=embed)
+    
 def setup(bot):
     bot.add_cog(Jakestest(bot))
