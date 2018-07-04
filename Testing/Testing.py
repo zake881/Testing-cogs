@@ -4,7 +4,7 @@ import time
 from __main__ import send_cmd_help
 
 class Jakestest:
-    """Dis mine!"""
+    """My learning shit!"""
 
     def __init__(self, bot):
         self.bot = bot
@@ -13,10 +13,11 @@ class Jakestest:
     async def Jake1(self, ctx):
         """This is Jakes way of slowly learning kek"""
         await self.bot.say("Jab you suck dick")
+        
     @commands.command(pass_context=True)
-    async def Jake2(self, ctx):
-        """This is Jakes way of slowly learning kek"""
-        await self.bot.say("this is all it is")
+    async def kek(self, ctx):
+        """Just a big ass kek yknow"""
+        await self.bot.say("https://zake881.tk/kek.gif")
         
 
     @commands.command(pass_context=True)
