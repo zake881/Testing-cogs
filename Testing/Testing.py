@@ -16,10 +16,12 @@ class Jakestest:
         """This is Jakes way of slowly learning kek"""
         await self.bot.say("this is all it is")
         
-    @command.command(pass_context=True)
+    @commands.command(pass_context=True)
     async def ping(ctx):
         embed = discord.Embed(title="Pong! :ping_pong:")
         await bot.say(embed=embed)
+
+
     
 def setup(bot):
     bot.add_cog(Jakestest(bot))
