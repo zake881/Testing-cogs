@@ -16,12 +16,6 @@ class Jakestest:
         """This is Jakes way of slowly learning kek"""
         await self.bot.say("this is all it is")
         
-class Ping:
-    """a semi-actual ping"""
-
-    def __init__(self,bot):
-        self.bot = bot
-        
 
     @commands.command(pass_context=True)
     async def pingt(self,ctx):
