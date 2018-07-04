@@ -16,9 +16,11 @@ class Jakestest:
         """This is Jakes way of slowly learning kek"""
         await self.bot.say("this is all it is")
         
-    @commands.command()
+    @commands.command(pass_context=True)
     async def ping(ctx):
-        return await ctx.send('Pong! {0}'.format(round(bot.latency, 1))
+        now = datetime.datetime.utcnow()
+        delta = now-ctx.message.timestamp
+        await client.say('{}ms'.format(delta(microseconds=1)))
 
 def setup(bot):
     bot.add_cog(Jakestest(bot))
