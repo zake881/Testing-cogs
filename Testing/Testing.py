@@ -20,7 +20,7 @@ class Jakestest:
         
 
     @commands.command(pass_context=True)
-    async def pingt(self,ctx):
+    async def ping(self,ctx):
         """pseudo-ping time"""
         channel = ctx.message.channel
         t1 = time.perf_counter()
