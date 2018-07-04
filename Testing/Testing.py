@@ -24,6 +24,7 @@ class Jakestest:
         """pseudo-ping time"""
         channel = ctx.message.channel
         t1 = time.perf_counter()
+        await self.bot.send_typing(channel)
         t2 = time.perf_counter()
         await self.bot.say("pseudo-ping: {}ms".format(round((t2-t1)*1000)))
 
