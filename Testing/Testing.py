@@ -1,5 +1,5 @@
 from discord.ext import commands
-from datetime
+from datetime import datetime
 
 class Jakestest:
     """Dis mine!"""
