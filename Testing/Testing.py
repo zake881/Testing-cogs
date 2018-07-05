@@ -21,7 +21,7 @@ class Jakestest:
         
     @commands.command(pass_context=True)
     async def snake(self, ctx):
-        """Just a big ass kek yknow"""
+        """Just a snake meme"""
         await self.bot.say("https://ci.memecdn.com/428348.jpg")        
         
 
