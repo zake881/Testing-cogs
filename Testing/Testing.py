@@ -19,6 +19,11 @@ class Jakestest:
         """Just a big ass kek yknow"""
         await self.bot.say("https://zake881.tk/kek.gif")
         
+    @commands.command(pass_context=True)
+    async def snake(self, ctx):
+        """Just a big ass kek yknow"""
+        await self.bot.say("https://ci.memecdn.com/428348.jpg")        
+        
 
     @commands.command(pass_context=True)
     async def ping(self,ctx):
