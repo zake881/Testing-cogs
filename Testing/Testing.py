@@ -22,7 +22,12 @@ class Jakestest:
     @commands.command(pass_context=True)
     async def snake(self, ctx):
         """Just a snake meme"""
-        await self.bot.say("https://ci.memecdn.com/428348.jpg")        
+        await self.bot.say("https://ci.memecdn.com/428348.jpg")    
+     
+    @commands.command(pass_context=True)
+    async def snake(self, ctx):
+        """Discord link"""
+        await self.bot.say("https://discord.gg/f4S2vJc")  
         
 
     @commands.command(pass_context=True)
@@ -32,7 +37,7 @@ class Jakestest:
         t1 = time.perf_counter()
         await self.bot.send_typing(channel)
         t2 = time.perf_counter()
-        await self.bot.say("pseudo-ping: {}ms".format(round((t2-t1)*1000)))
+        await self.bot.say("Bots ping: {}ms".format(round((t2-t1)*1000)))
 
     
 def setup(bot):
