@@ -25,7 +25,7 @@ class Jakestest:
         await self.bot.say("https://ci.memecdn.com/428348.jpg")    
      
     @commands.command(pass_context=True)
-    async def snake(self, ctx):
+    async def Disclink(self, ctx):
         """Discord link"""
         await self.bot.say("https://discord.gg/f4S2vJc")  
         
